@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\glad\source\repos\Project26\Project26\Source.cpp(18,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glad\source\repos\Project26\Project26\Source.cpp(23,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glad\source\repos\Project26\Project26\Source.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glad\source\repos\Project26\Project26\Source.cpp(76,20): warning C4018: '<': signed/unsigned mismatch
+  Project26.vcxproj -> C:\Users\glad\source\repos\Project26\Debug\Project26.exe
