@@ -68,13 +68,13 @@ int main() {
 		}
 	}
 
-	for (double i = 0.0; i < 50; i+=0.5)
+	for (double i = 0.0; i < 4.38; i += 0.01)
 	{
 		xnew.push_back(i);
  	}
 
 
-	for (int i = 0; i < xnew.size(); i++)
+	for (int i = 0; i < x.size(); i++)
 	{
  
 		ynew.push_back(lagranzh(x, y, xnew[i]));
@@ -94,7 +94,7 @@ int main() {
 		}
 	}
 
-	cout << poly;
+	cout << poly << endl;
 
 	return 0;
 };
