@@ -68,7 +68,7 @@ int main() {
 	for (int i = 0; i < xnew.size(); i++)
 	{
  
-		ynew.push_back(lagranzh(x, y, i));
+		ynew.push_back(lagranzh(x, y, xnew[i]));
  
 	}
 
