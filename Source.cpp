@@ -40,6 +40,15 @@ double lagranzh(vector<double>x, vector<double>y, double t) {
 }
 
 
+double myLagranzh(vector<double>x, vector<double>y, double t) {
+	double z = 0;
+
+ 
+
+	return z;
+}
+
+
 int main() {
 	string s;
 
