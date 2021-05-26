@@ -20,7 +20,7 @@ double lagranzh(vector<double>x, vector<double>y, double t) {
 		double p2 = 1;
 
 		int i = 0;
-		while (i < y.size()) {
+		while (i < x.size()) {
 
 			if (i == j) {
 				p1 = 1 * p1;
