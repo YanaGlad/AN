@@ -81,11 +81,20 @@ int main() {
  
 	}
 
+	cout << "Polynom is : " << endl;
 
-	for (int i = 0; i < xnew.size(); i++)
+	double poly = 1;
+	for (int i = 0; i < ynew.size(); i++)
 	{
-		cout << ynew[i] << endl;
+		if (i % 2 == 0) {
+			poly += ynew[i] * y[i];
+		}
+		else {
+			poly -= ynew[i] * y[i];
+		}
 	}
+
+	cout << poly;
 
 	return 0;
 };
